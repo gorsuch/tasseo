@@ -1,3 +1,12 @@
+PATH
+  remote: .
+  specs:
+    tasseo (0.0.1)
+      haml
+      rack-ssl-enforcer
+      sinatra
+      sinatra_auth_github
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -69,11 +78,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  haml
-  rack-ssl-enforcer
   rack-test
   rake
   rspec
-  sinatra
-  sinatra_auth_github
+  tasseo!
   thin
